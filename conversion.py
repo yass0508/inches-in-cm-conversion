@@ -12,7 +12,7 @@ def convert_to_centimeters():
 
 root = tk.Tk()
 root.title("Inches to Centimeters Converter")
-
+root.geometry("400x400")
 
 input_label = tk.Label(root, text="Enter length in inches:")
 input_label.pack(pady=10)
